@@ -1,14 +1,30 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "device1": {
+    "data": [
+      { "id": 1, "dateTime": "2020-10-02 10:00:00", "preHeatDur": 0, "dur": 0, "temp": 22, "press": 45, "pH": 7, "heat": "true", "mix": "false", "valv": "false" },
+      { "id": 2, "dateTime": "2020-10-02 10:10:00", "preHeatDur": 600, "dur": 0, "temp": 35, "press": 45, "pH": 7, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 3, "dateTime": "2020-10-02 10:20:00", "preHeatDur": 600, "dur": 600, "temp": 35, "press": 45, "pH": 6, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 4, "dateTime": "2020-10-02 10:30:00", "preHeatDur": 600, "dur": 1200, "temp": 35, "press": 45, "pH": 6, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 5, "dateTime": "2020-10-02 10:40:00", "preHeatDur": 600, "dur": 1800, "temp": 35, "press": 45, "pH": 5, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 6, "dateTime": "2020-10-02 10:50:00", "preHeatDur": 600, "dur": 2400, "temp": 35, "press": 45, "pH": 5, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 7, "dateTime": "2020-10-02 11:00:00", "preHeatDur": 600, "dur": 3000, "temp": 31, "press": 45, "pH": 4, "heat": "true", "mix": "false", "valv": "false" },
+      { "id": 8, "dateTime": "2020-10-02 11:10:00", "preHeatDur": 600, "dur": 3600, "temp": 35, "press": 45, "pH": 4, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 9, "dateTime": "2020-10-02 11:20:00", "preHeatDur": 600, "dur": 4200, "temp": 29, "press": 45, "pH": 3, "heat": "true", "mix": "false", "valv": "false" },
+      { "id": 10, "dateTime": "2020-10-02 11:30:00", "preHeatDur": 600, "dur": 4800, "temp": 37, "press": 45, "pH": 3, "heat": "false", "mix": "false", "valv": "false" }
+    ]
+  },
+  "device2": {
+    "data": [
+      { "id": 1, "dateTime": "2020-10-02 10:00:00", "preHeatDur": 0, "dur": 0, "temp": 18, "press": 45, "pH": 7, "heat": "true", "mix": "false", "valv": "false" },
+      { "id": 2, "dateTime": "2020-10-02 10:10:00", "preHeatDur": 600, "dur": 0, "temp": 36, "press": 45, "pH": 7, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 3, "dateTime": "2020-10-02 10:20:00", "preHeatDur": 600, "dur": 600, "temp": 35, "press": 45, "pH": 7, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 4, "dateTime": "2020-10-02 10:30:00", "preHeatDur": 600, "dur": 1200, "temp": 37, "press": 45, "pH": 7, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 5, "dateTime": "2020-10-02 10:40:00", "preHeatDur": 600, "dur": 1800, "temp": 33, "press": 45, "pH": 7, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 6, "dateTime": "2020-10-02 10:50:00", "preHeatDur": 600, "dur": 2400, "temp": 35, "press": 45, "pH": 7, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 7, "dateTime": "2020-10-02 11:00:00", "preHeatDur": 600, "dur": 3000, "temp": 27, "press": 45, "pH": 7, "heat": "true", "mix": "false", "valv": "false" },
+      { "id": 8, "dateTime": "2020-10-02 11:10:00", "preHeatDur": 600, "dur": 3600, "temp": 35, "press": 45, "pH": 7, "heat": "false", "mix": "false", "valv": "false" },
+      { "id": 9, "dateTime": "2020-10-02 11:20:00", "preHeatDur": 600, "dur": 4200, "temp": 10, "press": 45, "pH": 7, "heat": "true", "mix": "false", "valv": "false" },
+      { "id": 10, "dateTime": "2020-10-02 11:30:00", "preHeatDur": 600, "dur": 4800, "temp": 37, "press": 45, "pH": 7, "heat": "false", "mix": "false", "valv": "false" }
+    ]
   }
 }
